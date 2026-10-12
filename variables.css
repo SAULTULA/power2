@@ -1,0 +1,54 @@
+:root {
+  /* Premium Apple Pro / MacOS Sonoma Inspired Palette */
+  --color-bg-primary: #050505;
+  --color-bg-secondary: #111112;
+  --color-bg-tertiary: #1c1c1e;
+  
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #86868b;
+  --color-text-muted: #6e6e73;
+  
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-border-strong: rgba(255, 255, 255, 0.2);
+  
+  --color-accent: #ff293b; /* Apple Music Red */
+  --color-accent-hover: #fa1126;
+  --color-accent-glow: rgba(255, 41, 59, 0.4);
+  
+  --color-surface: #111112;
+  --color-surface-hover: #1c1c1e;
+
+  /* Typography */
+  --font-family-base: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  --font-size-sm: clamp(0.875rem, 1vw, 1rem);
+  --font-size-base: clamp(1rem, 1.2vw, 1.125rem);
+  --font-size-md: clamp(1.25rem, 1.5vw, 1.5rem);
+  --font-size-lg: clamp(1.75rem, 2vw, 2.25rem);
+  --font-size-xl: clamp(2.5rem, 5vw, 4.5rem);
+  --font-size-xxl: clamp(3rem, 7vw, 6rem);
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2.5rem;
+  --spacing-2xl: 4rem;
+  --spacing-3xl: 6rem;
+  
+  /* Borders & Shadows */
+  --border-radius-sm: 8px;
+  --border-radius-md: 16px;
+  --border-radius-lg: 24px;
+  --border-radius-full: 9999px;
+  
+  /* Rich, deep shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 12px 24px rgba(0, 0, 0, 0.6), 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 24px 48px rgba(0, 0, 0, 0.8), 0 12px 24px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 30px var(--color-accent-glow);
+  
+  /* Layout */
+  --layout-max-width: 1400px;
+  --header-height: 70px;
+}
